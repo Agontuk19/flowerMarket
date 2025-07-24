@@ -256,6 +256,31 @@ nav a{
     font-size: 1.3rem;
 }
 
+/* Footer Section */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    margin: 100px 150px;
+}
+.footer-logo p {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-bar {
+    display: flex;
+    gap: 110px;
+}
+.footer-bar p {
+    margin-bottom: 35px;
+}
+.footer-bar a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
 
 /* Responsive Styles */
 
