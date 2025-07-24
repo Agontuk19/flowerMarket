@@ -280,7 +280,14 @@ nav a{
     font-weight: 500;
     font-size: 1.2rem;
 }
-
+.footer-icons {
+    display: flex;
+    gap: 30px;
+}
+.footer-icons img{
+    width: 36px;
+    height: 36px;
+}
 
 /* Responsive Styles */
 
