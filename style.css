@@ -149,6 +149,113 @@ nav a{
     margin-bottom: 20px;
 }
 
+/* Latest Deals Section */
+.latest-deals {
+    text-align: center;
+    margin-top: 133px;
+}
+.deals-title {
+    font-weight: bold;
+    font-size: 3.1rem;
+}
+.deals-title h1 {
+    margin-bottom: 16px;
+}
+.deals-description {
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px 210px 80px 210px;
+}
+.deals {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.deals-col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+.deal-1, .deal-2, .deal-3{
+    position: relative;
+}
+.deal-1 img, .deal-2 img, .deal-3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.deal-1-offer, .deal-2-offer{
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 20%;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+}
+.deal-3-offer {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 25%;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+.deal-1-offer p, .deal-2-offer p, .deal-3-offer p{
+    margin-top: 0px;
+    margin-bottom: 13px;
+}
+.deal-1-offer p a, .deal-2-offer p a, .deal-3-offer p a{
+    color: white;
+}
+
+/* Join Section */
+.join {
+    margin-top: 120px;
+    position: relative;
+}
+.join img {
+    width: 100%;
+}
+.join-content {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+}
+.join-title {
+    color: white;
+    font-weight: bold;
+    font-size: 3.1rem;
+}
+.join-title h2 {
+    margin-bottom: 25px;
+}
+.join-mail-bar {
+    position: relative;
+}
+.join-mail-bar input{
+    width: 644px;
+    height: 50px;
+    background-color: white;
+    padding: 10px 35px;
+    border: none;
+    margin-right: 0;
+    font-size: 1.3rem;
+}
+.join-mail-bar button {
+    position: relative;
+    left: -10px;
+    width: 200px;
+    height: 70px;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    padding: 20px 35px;
+    border: none;
+    margin-left: 0;
+    font-size: 1.3rem;
+}
+
 
 /* Responsive Styles */
 
@@ -230,5 +337,55 @@ nav a{
     .plant-lover-description li {
         font-size: 1rem;
         margin-bottom: 10px;
+    }
+
+    .deals-title {
+        font-size: 1.4rem;
+    }
+    .deals-description {
+        font-size: 1rem;
+        margin: 0px 21px 50px 21px;
+    }
+    .deals {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .deal-3-offer {
+        position: absolute;
+        z-index: 1;
+        top: 35%;
+        left: 20%;
+        font-size: 1.4rem;
+        color: white;
+        font-weight: bold;
+    }
+
+    .join {
+        margin-top: 50px;
+        background-size: cover;
+    }
+    .join-content {
+        top: 20%;
+        left: 10%;
+    }
+    .join img {
+        width: 200%;
+    }
+    .join-title {
+        font-size: 1.2rem;
+    }
+    .join-mail-bar input{
+        width: 180px;
+        height: 40px;
+        padding: 5px 15px;
+        font-size: 1rem;
+    }
+    .join-mail-bar button {
+        position: relative;
+        left: -10px;
+        width: 103px;
+        height: 50px;
+        padding: 12px;
+        font-size: 1rem;
     }
 }
