@@ -394,7 +394,7 @@ nav a{
 
     .join {
         margin-top: 50px;
-        background-size: cover;
+        overflow: hidden;
     }
     .join-content {
         top: 20%;
@@ -419,5 +419,15 @@ nav a{
         height: 50px;
         padding: 12px;
         font-size: 1rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+        margin: 50px 30px;
+    }
+    .footer-bar {
+        gap: 0px;
+        flex-direction: column;
     }
 }
